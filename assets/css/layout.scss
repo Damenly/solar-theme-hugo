@@ -260,7 +260,7 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 500px;
+	width: 100%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -312,7 +312,7 @@ h3 {
 }
 
 #content {
-	width: 500px;
+	width: 700px;
 	margin: 0 auto;
 }
 
@@ -407,6 +407,7 @@ code {
 }
 
 code {
+	width: 80%;
 	padding: 2px;
 }
 
