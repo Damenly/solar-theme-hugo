@@ -1,6 +1,11 @@
 {{ define "main" }}
 	<article class="post">
 		<h1><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if .Draft }}(Draft){{ end }}</h1>
+		<div class="views">
+			<span class="views">
+				<img src="https://visitor-badge.glitch.me/badge?page_id={{ .Permalink  }}" alt="Views"/>
+			</span>
+		</div>
 
 		<div class="post-content">{{ .Content | safeHTML }}</div>
 
